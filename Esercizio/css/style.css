@@ -1,0 +1,104 @@
+/* Your styles here */
+html {
+    font-size: 62, 5%;
+    font-family: "Open Sans", "sans-serif";
+}
+
+body {
+    font-family: "Open Sans", "sans-serif";
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+
+
+}
+
+main h1,
+h3,h4 {
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #c8e7f0;
+    color: white;
+
+}
+
+footer h1 {
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    transform: scale(0.5);
+}
+
+.titolocorso {
+    background-image: url(../images/banner.jpg);
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+main a {
+    color: white;
+    background-color: #f04c2f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 2vh;
+    border-radius: 1px;
+}
+
+main h3 {
+    margin-top: 2em;
+}
+
+div>p {
+    margin-bottom: 3vh;
+}
+
+#immaginetonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;                                 /*non sono riuscito ad adattare l'immagine al centro del contenitore tondo*/
+    overflow: hidden;
+    background-image: url(../images/notebook.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section{
+    background-color: red;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section h2{
+    margin-bottom: 5vh;
+}
+
+section p{
+    margin-bottom: 5vh;
+}
+
