@@ -74,8 +74,8 @@ div>p {
 #immaginetonda {
     width: 200px;
     height: 200px;
-    border-radius: 50%;                                 /*non sono riuscito ad adattare l'immagine al centro del contenitore tondo*/
-    overflow: hidden;
+    border-radius: 50%;                                 /*non sono riuscito ad adattare l'immagine al centro del contenitore tondo*/ 
+    overflow: hidden;                                   /*nel calcolare male i tempi di consegna non ho fatto in tempo a formattare correttamente le immagini successive*/
     background-image: url(../images/notebook.jpg);
     background-size: cover;
     background-position: center;
